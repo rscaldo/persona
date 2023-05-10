@@ -1,0 +1,36 @@
+@use "variaveis";
+
+.header--background {
+  background-image: url(../imagens/Persona-2.webp);
+  min-height: 80vh;
+  background-size: cover;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+
+  &__container {
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+
+    &__item {
+      gap: 20px;
+      margin-left: 20px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landpage Persona</title>
+  <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+
+<body>
+
+  <header class="header--background">
+    <div class="header">
+      <div class="header__container titulo">
+        <h1 class="title--big">Persona - 1966</h1>
+        <ul class="header__links">
+          <li class="header__links__item trailler"><a href="https://www.youtube.com/watch?v=amxvetvKfho" target="blank" class="button">Trailler</a></li>
+          <li class="header__links__item imdb"><a href="https://www.imdb.com/title/tt0060827/" target="blank" class="button">IMDB</a></li>
+          <li class="header__links__item"><a href="" class="button">Assista agora</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="shows">
+      <nav class="shows__tabs">
+        <button data-tab-button="elenco" class="shows__tabs__button shows__tabs__button--is-active">
+          Elenco
+        </button>
+        <button data-tab-button="fotos" class="shows__tabs__button">
+          Fotos
+        </button>
+      </nav>
+      <ul data-tab-id="elenco" class=" shows__list shows__list--is-active">
+        <li class="shows__list__item"><img class="foto--elenco" src=" ./dist/imagens/liv ullmann.jfif" alt="Liv Ullmann">
+          <p class="title--small">Liv Ullmann</p>
+        </li>
+        <li class="shows__list__item"><img class="foto--elenco" src="./dist/imagens/bibi-andersson.jfif" alt="Bibi Andersson">
+          <p class="title--small">Bibi Andersson</p>
+        </li>
+        <li class="shows__list__item"><img class="foto--elenco" src="./dist/imagens/gunnar.jfif" alt="Gunnar Bjornstrand">
+          <p class="title--small">Gunnar Bjornstrand</p>
+        </li>
+        <li class="shows__list__item"><img class="foto--elenco" src="./dist/imagens/margaretha.jfif" alt="Margaretha Krook">
+          <p class="title--small">Margaretha Krook</p>
+        </li>
+        <li class="shows__list__item"><img class="foto--elenco" src="./dist/imagens/maria-pia.jfif" alt="Maria Pia Di Meo">
+          <p class="title--small">Maria Pia Di Meo</p>
+        </li>
+      </ul>
+      <ul data-tab-id='fotos' class="shows__list">
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto1.jfif" alt="foto1">
+        </li>
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto2.jfif" alt="foto2">
+        </li>
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto3.jfif" alt="foto3">
+        </li>
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto4.jfif" alt="foto4">
+        </li>
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto5.jfif" alt="foto5">
+        </li>
+        <li class="shows__list__item"><img class="foto--filme" src="./dist/imagens/foto6.jfif" alt="foto6">
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="faq">
+      <h2 class="title">Curiosidades</h2>
+      <ul class="faq__questions">
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Curiosidade 1
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            According to himself, Ingmar Bergman fell in love with Liv Ullmann during the making of the movie.
+          </div>
+        </li>
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Curiosidade 2
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            The American version, released by United Artists, omits a brief close-up shot of an erect penis from the film's pre-credit collage.
+          </div>
+        </li>
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Curiosidade 3
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            Adagio from Concerto No. 2 in E major for Violin, Strings and Continuo, BWV 1042
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados © 2023</p>
+  </footer>
+
+  <script src='./dist/js/main.js'></script>
+</body>
+
+</html>
